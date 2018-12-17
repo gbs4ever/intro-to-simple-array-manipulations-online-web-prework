@@ -18,7 +18,8 @@ def shift_with_args(array)
   array.shift(2)
 end
 def using_concat(array,array2)
-end  
+  array.concat(array2)
+end
 def using_insert(array, element)
-array.insert(3,element)  
-  end  
+array.insert(3,element)
+  end
